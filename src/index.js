@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './home';
 import reportWebVitals from './reportWebVitals';
+import  Header  from './header';
+import LabelBottomNavigation from './botton_nav';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Home />
+    <LabelBottomNavigation />
   </React.StrictMode>,
   document.getElementById('root')
 );
